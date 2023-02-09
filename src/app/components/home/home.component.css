@@ -27,13 +27,6 @@
     animation: blinkCursor 1.5s infinite normal, typing 2.5s steps(50) 1s normal;
 }
 
-@media (max-width: 1900px) {
-    .text
-    {
-        color: blue;
-    }
-}
-
 @keyframes typing
 {
     from{
@@ -89,7 +82,6 @@
 
 .imgPerfil
 {
-    height: 30rem;
     position: absolute;
     top: 0.5rem;
     right: -0.3rem;
@@ -142,4 +134,23 @@
 {
     background-color: #171515;
     border: 1px solid var(--third-color);
+}
+
+@media (max-width: 1900px) {
+    .boxPerfil img
+    {
+        width: 20rem;
+    }
+
+    .boxPerfil .framePerfil
+    {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .cards
+    {
+        width: 21rem;
+        left: -0.5rem;
+    }
 }
