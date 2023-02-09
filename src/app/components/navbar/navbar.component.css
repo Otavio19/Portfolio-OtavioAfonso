@@ -39,7 +39,7 @@ nav ul li:hover
     width: 4rem;
     height: 4rem;
     text-align: center;
-    line-height: 5rem;
+    line-height: 4rem;
     transform: rotate(-90deg);
     border-radius: 1rem;
     z-index: 5;
