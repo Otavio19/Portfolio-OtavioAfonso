@@ -1,0 +1,87 @@
+#experience
+{
+    height: 90vh;
+}
+
+.boxContainer
+{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.titleSection h1
+{
+    font-size: 2rem;
+}
+
+.titleSection p
+{
+    color: var(--fourth-color);
+}
+
+.jobCard
+{
+    display: inline-block;
+    border: 1px solid red;
+    width:20rem;
+    height: 20rem;
+    padding: 1rem;
+    margin: 2rem 2rem 2rem 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.jobTicked
+{
+    position: absolute;
+    right: -5rem;
+    top: -5rem;
+    transform: rotate(45deg);
+    border: 1px solid var(--fifth-color);
+    width: 7rem;
+    padding: 0.3rem 0;
+    background-color: var(--fifth-color);
+    height: -1rem;
+    transition: 0.5s;
+}
+
+.jobCard:hover .jobTicked
+{
+    display: block;
+    right: -1.7rem;
+    top: 0.9rem;
+}
+
+.jobCardTitle
+{
+    font-size: 1.5rem;
+    color: var(--fifth-color);
+}
+
+.jobTime
+{
+    font-size: 0.8rem;
+    color: var(--fourth-color);
+}
+
+.jobCardDesc
+{
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.jobBottom
+{
+    position: absolute;
+    bottom: 2rem;
+    width: 99.5%;
+    left: 0;
+}
+
+.jobBottom button
+{
+    border: none;
+    background-color: var(--fifth-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}

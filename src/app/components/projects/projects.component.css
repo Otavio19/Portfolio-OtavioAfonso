@@ -1,0 +1,127 @@
+#projects
+{
+    height: 100vh;
+    position: relative;
+}
+
+.boxContainer
+{
+    position: relative;
+    top: 2rem;
+    text-align: center;
+}
+
+.titleSection
+{
+    font-size: 2rem;
+    position: absolute;
+    width: 100%;
+    font-size: 15rem;
+    bottom: 2rem;
+    color: var(--second-color);
+    cursor: default;
+    z-index: -1;
+}
+
+.titleSection p
+{
+    font-size: 3rem;
+    line-height: 0rem;
+    color: var(--second-color);
+}
+
+.cardsBox
+{
+    border: 1px solid var(--third-color);
+    height: 80vh;
+}
+
+.cardProject
+{
+    border: 1px solid red;
+    width: 20rem;
+    min-height: 10rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    margin: 2rem 0.8rem 0.8rem 0;
+    display: inline-table;
+    background-color: var(--primary-color);
+}
+
+.cardTitle
+{
+    font-size: 1.5rem;
+    color: var(--fifth-color);
+    margin-top: 1rem;
+}
+
+.cardsSkill
+{
+    margin-top: 0.5rem;
+}
+
+.cardSkill
+{
+    display: inline-block;
+    margin: 0.3rem 0.3rem;
+    padding: 0.3rem 0.8rem;
+    background-color: var(--third-color);
+    font-size: 0.8rem;
+    border-radius: 0.3rem;
+    cursor: default;
+}
+
+.cardSkill:hover
+{
+    background-color: var(--fifth-color);
+}
+
+.cardDesc details
+{
+    margin-top: 1rem;
+}
+
+.cardDesc details summary
+{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--fifth-color);
+    display: inline-block;
+    padding: 0 2rem;
+    cursor: pointer;
+}
+
+.cardDesc p
+{
+    margin-top: 1rem;
+    overflow: hidden;
+    transition: 1s;
+    text-align: left;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.cardDesc details a
+{
+    color: var(--fifth-color);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.cardDesc details .cardLinkCode
+{
+    border: none;
+    background-color: var(--fifth-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cardDesc details ul
+{
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}

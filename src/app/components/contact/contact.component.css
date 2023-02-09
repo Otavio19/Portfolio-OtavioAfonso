@@ -1,0 +1,154 @@
+#contact
+{
+    height: 100vh;
+}
+
+.container
+{
+    height: 90%;
+}
+
+.titleSection
+{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--fifth-color);
+    margin-top: 2rem;
+}
+
+.share
+{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.socialCard
+{
+    display: inline-block;
+    width: 15rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--fifth-color);
+    border-radius: 0.5rem;
+    margin: 0 2rem;
+}
+
+.socialCard:nth-child(1)
+{
+    background-color: #34af23;
+}
+
+.socialCard:nth-child(2)
+{
+    background-color: #0e76a8;
+}
+
+.socialCard:nth-child(3)
+{
+    background-color: #171515;
+    border: 1px solid var(--third-color);
+}
+
+.socialName
+{
+    position: absolute;
+    display: block;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.socialTxt
+{
+    position: absolute;
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+}
+
+.socialCard:hover .socialName
+{
+    transform: translateY(-2rem);
+}
+
+.socialCard:hover .socialTxt
+{
+    transform: translateY(-2rem);
+}
+
+.formBox
+{
+    margin-top: 2rem;
+}
+
+.formBox .col
+{
+    position: relative;
+    height: 3rem;
+    margin-top: 2rem;
+    padding-left: 40%;
+}
+
+.formBox .col label
+{
+    position: absolute;
+    z-index: -1;
+    color: var(--third-color);
+    font-size: 1.3rem;
+    transition: 0.5s;
+    margin-left: 1rem;
+    line-height: 2.5rem;
+}
+
+.formBox .col input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--fifth-color);
+    line-height: 2rem;
+    position: absolute;
+    width: 20rem;
+    outline: none;
+    padding: 0.3rem 0 0 0.5rem;
+}
+
+.col input:valid ~ label, .col input:hover ~ label, .col input:focus ~ label
+{
+    color: var(--fifth-color);
+    transform: translateY(-1.3rem);
+    font-size: 1rem;
+}
+
+.form-group textarea
+{
+    border: 1px solid var(--fifth-color);
+    width: 50%;
+    margin: auto;
+    display: block;
+    background-color: transparent;
+    outline: none;
+    padding: 1rem;
+    resize: none;
+}
+
+form button
+{
+    border: 1px solid var(--fifth-color);
+    background-color: transparent;
+    font-size: 1.5rem;
+    margin: 1.5rem auto;
+    display: block;
+    padding: 0.5rem 2rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+form button:hover
+{
+    border-radius: 0.5rem;
+    background-color: var(--fifth-color);
+    color: var(--primary-color);
+}

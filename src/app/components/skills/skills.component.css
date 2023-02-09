@@ -1,0 +1,48 @@
+#skills
+{
+    height: 100vh;
+    position: relative;
+}
+
+.titleSection
+{
+    font-size: 2rem;
+    color: var(--fifth-color);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.CardSkill
+{
+    border: 1px solid var(--fourth-color);
+    font-size: 3rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 2rem 2rem;
+    border-radius: 1rem;
+    animation: floating 3s ease-in-out infinite;
+    transition: 1s;
+    cursor: default;
+}
+
+.CardSkill:hover
+{
+    background-color: var(--fourth-color);
+}
+
+.CardSkill:hover h1
+{
+    color: var(--second-color);
+}
+  
+  @keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

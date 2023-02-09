@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+:root
+{
+    --primary-color: rgb(15,25,35);
+    --second-color: rgb(26,36,45);
+    --third-color: rgb(50,59,69);
+    --fourth-color: rgb(149,191,199);
+    --fifth-color: rgb(241,44,76);
+}
+
+body
+{
+    background-color: var(--primary-color);
+    min-width: 1366px;
+}
