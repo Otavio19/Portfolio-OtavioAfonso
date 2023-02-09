@@ -7,11 +7,12 @@
 .textBox
 {
     display: inline-block;
-    width: 60%;
+    width: 40%;
     cursor: default;
     position: absolute;
     top: 30%;
     left: 5rem;
+    border: 1px solid red;
 }
 
 .text
@@ -24,6 +25,13 @@
     white-space: nowrap;
     overflow: hidden;
     animation: blinkCursor 1.5s infinite normal, typing 2.5s steps(50) 1s normal;
+}
+
+@media (max-width: 1900px) {
+    .text
+    {
+        color: blue;
+    }
 }
 
 @keyframes typing
