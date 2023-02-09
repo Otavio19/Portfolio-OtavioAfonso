@@ -63,9 +63,16 @@
   }
 
   @media (max-width: 1900px) {
+
+    #skills
+    {
+        max-height: 100vh;
+        position: relative;
+    }
+
     .boxContainer
     {
-      height: 90vh;
+      max-height: 90vh;
     }
 
     .CardSkill
