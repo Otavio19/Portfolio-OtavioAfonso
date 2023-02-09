@@ -7,7 +7,6 @@
 .boxContainer
 {
     position: relative;
-    top: 2rem;
     text-align: center;
 }
 
@@ -33,7 +32,7 @@
 .cardsBox
 {
     border: 1px solid var(--third-color);
-    height: 80vh;
+    height: 95vh;
 }
 
 .cardProject
