@@ -46,3 +46,30 @@
       transform: translateY(0);
     }
   }
+
+  .titleSectionBg
+  {
+    position: absolute;
+    font-size: 20rem;
+    line-height: 15rem;
+    width: 100%;
+    text-align: center;
+    z-index: -1;
+  }
+
+  .titleSectionBg b
+  {
+    color: var(--second-color);
+  }
+
+  @media (max-width: 1900px) {
+    .boxContainer
+    {
+      height: 90vh;
+    }
+
+    .CardSkill
+    {
+      margin-top: 0.5rem;
+    }
+}
