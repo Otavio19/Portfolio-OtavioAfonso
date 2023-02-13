@@ -1,6 +1,6 @@
 #experience
 {
-    height: 90vh;
+    min-height: 90vh;
 }
 
 .boxContainer
@@ -84,4 +84,26 @@
     background-color: var(--fifth-color);
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
+}
+
+@media (max-width: 720px)
+{
+    #experience
+    {
+        position: relative;
+        height: auto;
+    }
+
+    .jobCard
+    {
+        width: 80%;
+        height: auto;
+        margin: 1rem 0;
+    }
+
+    .jobBottom
+    {
+        position: static;
+        margin-top: 1rem;
+    }
 }

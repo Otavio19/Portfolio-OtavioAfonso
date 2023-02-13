@@ -153,3 +153,36 @@
         left: -0.5rem;
     }
 }
+
+@media ( max-width: 720px ){
+    .box
+    {
+        height: auto;
+        display: block;
+    }
+
+    .textBox
+    {
+        left: 0;
+        top: 2rem;
+        width: 100%;
+    }
+
+    .textBox .text
+    {
+        font-size: 1.6rem;
+    }
+
+    .subText
+    {
+        font-size: 1rem;
+    }
+
+    .boxPerfil
+    {
+        top: 7rem;
+        width: 100%;
+        position: relative;
+        left: 0rem;
+    }
+}

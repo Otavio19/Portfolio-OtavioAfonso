@@ -24,7 +24,7 @@ nav ul li, nav ul li a
     cursor: pointer;
 }
 
-nav ul li:hover
+nav ul a:hover
 {
     color: #fff;
 }
@@ -56,4 +56,25 @@ nav ul li:hover
 {
     background-color: var(--fifth-color);
     transition: 0;
+}
+
+@media (max-width: 720px) {
+    nav
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul 
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li, nav ul li a
+    {
+        margin: 0;
+        font-size: 0.9rem;
+        margin-left: 0.3rem;
+    }
 }

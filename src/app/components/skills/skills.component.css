@@ -85,3 +85,29 @@
       font-size: 2.5rem;
     }
 }
+
+@media (max-width: 720px)
+{
+  #skills
+  {
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  .boxContainer
+  {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  .CardSkill
+  {
+    font-size: 1rem;
+  }
+
+  .titleSectionBg
+  {
+    font-size: 6rem;
+    bottom: 0;
+  }
+}
